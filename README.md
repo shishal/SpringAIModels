@@ -70,19 +70,6 @@ SpringAIDemo/
    npm run dev
    ```
 
-## Running the Application
-
-1. Start the Spring Boot application:
-   ```bash
-   mvn spring-boot:run
-   ```
-
-2. Open your browser and navigate to:
-   ```
-   http://localhost:8080
-   ```
-
-
 
 
 
