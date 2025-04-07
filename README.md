@@ -38,7 +38,7 @@ SpringAIDemo/
 1. Clone the repository:
    ```bash
    git clone https://github.com/navinreddy20/SpringAIwithModels.git
-   cd SpringAIwithModels
+  
    ```
 
 2. Configure your API keys in `application.properties` or via environment variables:
