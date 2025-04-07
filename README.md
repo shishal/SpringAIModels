@@ -30,7 +30,7 @@ SpringAIDemo/
 - Maven 3.6 or higher
 - Node.js and npm (for the React UI)
 - API keys for OpenAI and Anthropic
-- Ollama installed locally (if using local models)
+- Ollama installed locally
 
 
 ### Backend Setup
