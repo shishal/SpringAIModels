@@ -8,7 +8,7 @@ This repository contains a Spring Boot application that demonstrates the integra
 SpringAIDemo/
 ├── src/
 │   ├── main/
-│   │   ├── java/             # Spring Boot backend code
+│   │   ├── java/             # backend code
 │   │   ├── resources/        # Application properties and static resources
 │   │   └── llm-comparison-ui/ # React frontend application
 └── ...
