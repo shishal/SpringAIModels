@@ -1,4 +1,4 @@
-# LLM Comparison Application with Spring AI
+# Spring AI Tutorial with OpenAI, Anthropic and Ollama
 
 This repository contains a Spring Boot application that demonstrates the integration of multiple Large Language Models (LLMs) including OpenAI, Anthropic, and Ollama, using the Spring AI library. The project also includes a React-based UI for comparing responses from different models.
 
