@@ -67,7 +67,7 @@ SpringAIDemo/
 
 3. Build the UI:
    ```bash
-   npm run build
+   npm run dev
    ```
 
 ## Running the Application
