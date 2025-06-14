@@ -10,4 +10,4 @@ spring:
         ollama:
             chat:
                 options:
-                    model: deepseek-coder-v2:16b
+                    model: mistral-small3.1

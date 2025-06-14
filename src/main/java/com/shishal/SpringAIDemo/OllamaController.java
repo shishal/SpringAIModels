@@ -1,5 +1,6 @@
 package com.shishal.SpringAIDemo;
 
+import com.shishal.SpringAIDemo.tool.DateTimeTool;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.chat.client.ChatClient;
@@ -14,15 +15,14 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class OllamaController {
 
-    private final ChatClient chatClient;
+    private final ChatClient ollamaChatClient;
 
     @GetMapping("/{message}")
     public ResponseEntity<String> getAnswer(@PathVariable String message){
 
-
-
-        ChatResponse chatResponse = chatClient
+        ChatResponse chatResponse = ollamaChatClient
                 .prompt(message)
+                .tools(new DateTimeTool())
                 .call()
                 .chatResponse();
 
