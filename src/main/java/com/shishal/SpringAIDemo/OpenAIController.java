@@ -1,4 +1,4 @@
-package com.telusko.SpringAIDemo;
+package com.shishal.SpringAIDemo;
 
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.http.ResponseEntity;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin("*")
 public class OpenAIController {
 
-    private OpenAiChatModel chatModel;
+    private final OpenAiChatModel chatModel;
 
     public OpenAIController(OpenAiChatModel chatModel){
         this.chatModel = chatModel;
