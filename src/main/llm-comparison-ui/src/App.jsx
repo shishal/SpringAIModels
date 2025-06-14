@@ -14,8 +14,8 @@ function App() {
   const [responseOrder, setResponseOrder] = useState([]);
 
   const models = [
-    { id: 'openai', name: 'OpenAI (GPT-4o)', color: '#2ECC71' },
-    { id: 'ollama', name: 'Ollama (Gemma 2)', color: '#E67E22' }
+    { id: 'openai', name: 'OpenAI', color: '#2ECC71' },
+    { id: 'ollama', name: 'Ollama', color: '#E67E22' }
   ];
 
   const handlePromptChange = useCallback((value) => {
