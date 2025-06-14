@@ -1,6 +1,6 @@
-# Spring AI Tutorial with OpenAI, Anthropic and Ollama
+# Spring AI Tutorial with OpenAI and Ollama
 
-This repository contains a Spring Boot application that demonstrates the integration of multiple Large Language Models (LLMs) including OpenAI, Anthropic, and Ollama, using the Spring AI library. The project also includes a React-based UI for comparing responses from different models.
+This repository contains a Spring Boot application that demonstrates the integration of multiple Large Language Models (LLMs) including OpenAI and Ollama, using the Spring AI library. The project also includes a React-based UI for comparing responses from different models.
 
 ## Project Structure
 
@@ -18,7 +18,6 @@ SpringAIDemo/
 
 - Integration with multiple LLM providers:
     - OpenAI (GPT models)
-    - Anthropic (Claude models)
     - Ollama (Local models)
 - REST API endpoints for interacting with each LLM
 - React-based user interface for comparing model responses side-by-side
@@ -26,10 +25,10 @@ SpringAIDemo/
 
 ## Prerequisites
 
-- Java 17 or higher
+- Java 21 or higher
 - Maven 3.6 or higher
 - Node.js and npm (for the React UI)
-- API keys for OpenAI and Anthropic
+- API keys for OpenAI
 - Ollama installed locally
 
 
@@ -37,15 +36,16 @@ SpringAIDemo/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/navinreddy20/SpringAIwithModels.git
+   git clone https://github.com/shishal/SpringAIModels.git
   
    ```
 
-2. Configure your API keys in `application.properties` or via environment variables:
-   ```properties
-   spring.ai.openai.api-key=your_openai_key
-   spring.ai.anthropic.api-key=your_anthropic_key
-   # Other configuration properties...
+2. Configure your API keys in `application.yml` or via environment variables:
+   ```yml
+    spring:
+      ai:
+        openai:
+        api-key: ${OPEN_API_KEY}
    ```
 
 3. Build the Spring Boot application:
@@ -79,13 +79,11 @@ SpringAIDemo/
 
 ## Acknowledgements
 
-- [Spring AI](https://spring.io/projects/spring-ai)
+- [Spring AI](https://docs.spring.io/spring-ai/reference/index.html)
 - [OpenAI API](https://openai.com/blog/openai-api)
-- [Anthropic Claude API](https://www.anthropic.com/product)
 - [Ollama](https://ollama.ai/)
 
 ## Contact
 
 For any questions or feedback, please check out:
-- YouTube Channel: [Telusko](https://youtube.com/Telusko)
-- GitHub: [navinreddy20/SpringAIwithModels](https://github.com/navinreddy20/SpringAIwithModels)
+- GitHub: [shishal/SpringAIModels](https://github.com/shishal/SpringAIModels.git)
